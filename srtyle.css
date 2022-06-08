@@ -1,0 +1,46 @@
+body
+{
+    font-family:'Arial';
+    font-size: large;
+    font-weight: normal;
+    font-style: normal;
+    background-color: rgb(33, 98, 114);
+    color: aliceblue;
+}
+
+h1, h1 +p
+{
+    text-align: center;
+}
+
+h2
+{
+    text-decoration: underline;
+    text-transform: capitalize;
+}
+
+img
+{
+float: right;
+border: 1px solid black;
+box-shadow: 2px 2px 2px black;
+}
+
+h2
+{
+    color: chocolate;
+}
+
+header
+{
+    display: flex;
+    justify-content:space-around;
+}
+section
+{
+    display: inline-block;
+    justify-content: space-between;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 2%;
+}
